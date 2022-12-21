@@ -11,17 +11,17 @@ int main(void)
     int n;       // n : number(크기)
     int s;       // s : search(검색)
     int cnt = 0; // c : count(셈)
-    int a[n];    // a : array(배열)
 
     /* 배열에 숫자 저장 */
     cin >> n;
+    int array[n]; // 크기가 n인 배열 'array'
     for (int i = 0; i < n; i++)
-        cin >> a[i];
+        cin >> array[i];
 
     /* 같은 숫자 개수 세기 */
     cin >> s;
     for (int i = 0; i < n; i++)
-        if (s == a[i])
+        if (s == array[i])
             cnt++;
 
     /* 결과 출력 */
