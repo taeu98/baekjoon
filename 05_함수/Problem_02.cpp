@@ -1,6 +1,6 @@
 /* 05단계 [ 함수 ] */
-// 제목 : 정수 N개의 합
-// 문제 번호 : 15596
+// 제목 : 셀프 넘버
+// 문제 번호 : 4673
 
 #include <iostream>
 using namespace std;
