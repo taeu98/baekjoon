@@ -29,6 +29,5 @@ int main(void)
     for (int i = 1; i < array_size; i++) // 'self number'출력
         if (self_num[i])
             cout << i << endl;
-    cout << endl;
     return 0;
 }
