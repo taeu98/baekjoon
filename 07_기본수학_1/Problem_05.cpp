@@ -1,3 +1,7 @@
+/* 07단계 [ 기본수학 1 ] */
+// 제목 : ACM 호텔
+// 문제 번호 : 10250
+
 #include <iostream>
 using namespace std;
 
