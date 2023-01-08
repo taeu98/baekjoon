@@ -1,3 +1,7 @@
+/* 08단계 [ 기본수학 2 ] */
+// 제목 : 골드바흐의 추측
+// 문제 번호 : 9020
+
 #include <iostream>
 using namespace std;
 
