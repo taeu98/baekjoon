@@ -13,6 +13,6 @@ int main(void)
         x = -1;
     else
         x = a / (c - b) + 1;
-    cout << x << endl;
+    cout << x << "\n";
     return 0;
 }

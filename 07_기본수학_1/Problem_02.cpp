@@ -7,10 +7,10 @@ using namespace std;
 
 int main(void)
 {
-    int a, x = 1;
+    int a, n = 1;
     cin >> a;
     for (int i = 1; 3 * i * (i - 1) + 1 < a; i++)
-        x++;
-    cout << x << endl;
+        n++;
+    cout << n << "\n";
     return 0;
 }

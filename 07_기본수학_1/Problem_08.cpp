@@ -1,3 +1,7 @@
+/* 07단계 [ 기본수학 1 ] */
+// 제목 : 큰 수 A+B
+// 문제 번호 : 10757
+
 #include <iostream>
 using namespace std;
 

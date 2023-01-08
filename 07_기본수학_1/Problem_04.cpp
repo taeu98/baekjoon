@@ -9,7 +9,7 @@ int main(void)
     int A, B, V;
     cin >> A >> B >> V;
     if ((V - A) % (A - B))
-        cout << (V - A) / (A - B) + 2 << endl;
+        cout << (V - A) / (A - B) + 2 << "\n";
     else
-        cout << (V - A) / (A - B) + 1 << endl;
+        cout << (V - A) / (A - B) + 1 << "\n";
 }

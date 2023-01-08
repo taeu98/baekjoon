@@ -13,5 +13,5 @@ int main(void)
         b++;
     x = a - (b - 1) * b / 2;
     y = b + 1 - x;
-    (b % 2) ? cout << y << '/' << x << endl : cout << x << '/' << y << endl;
+    (b % 2) ? cout << y << '/' << x << "\n" : cout << x << '/' << y << "\n";
 }
