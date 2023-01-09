@@ -1,3 +1,7 @@
+/* 09단계 [ 2차원 배열 ] */
+// 제목 : 행렬 덧셈
+// 문제 번호 : 2738
+
 #include <iostream>
 using namespace std;
 int main()
