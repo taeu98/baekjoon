@@ -1,10 +1,11 @@
 {
-    "files.associations": {
-        "iosfwd": "cpp",
-        "string": "cpp",
-        "ostream": "cpp",
-        "iostream": "cpp",
-        "filesystem": "cpp",
-        "ios": "cpp"
-    }
+  "files.associations": {
+    "iosfwd": "cpp",
+    "string": "cpp",
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "filesystem": "cpp",
+    "ios": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
 }
