@@ -2,18 +2,19 @@
 using namespace std;
 int main()
 {
-    int D, M[3] = {0, 0, 0};
-    for (int i = 0; i < 9; i++)
-        for (int j = 0; j < 9; j++)
-        {
-            cin >> D;
-            if (D >= M[0])
-            {
-                M[0] = D;
-                M[1] = i + 1;
-                M[2] = j + 1;
-            }
-        }
-    cout << M[0] << "\n"
-         << M[1] << ' ' << M[2];
+    bool arr[100][100] = {false};
+    int N, x, y, cnt = 0;
+    cin >> N;
+    for (int i = 0; i < N; i++)
+    {
+        cin >> x >> y;
+        for (int j = x; j < 10 + x; j++)
+            for (int k = y; k < 10 + y; k++)
+                arr[j][k] = true;
+    }
+    for (int i = 0; i < 100; i++)
+        for (int j = 0; j < 100; j++)
+            if (arr[i][j])
+                cnt++;
+    cout << cnt << "\n";
 }
