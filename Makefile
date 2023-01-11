@@ -1,2 +1,2 @@
 run:
-	cd TEST/; make run
+	cd test/; make run
