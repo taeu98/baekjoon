@@ -1,6 +1,6 @@
 /* 10단계 [ 정렬 ] */
-// 제목 : 좌표 정렬하기 2
-// 문제 번호 : 11651
+// 제목 : 좌표 정렬하기
+// 문제 번호 : 11650
 
 #include <iostream>
 #include <vector>
@@ -17,11 +17,11 @@ int main()
     for (int i = 0; i < N; i++)
     {
         cin >> x >> y;
-        v.push_back({y, x});
+        v.push_back({x, y});
     }
 
     sort(v.begin(), v.end());
 
     for (int i = 0; i < N; i++)
-        cout << v[i].second << ' ' << v[i].first << '\n';
+        cout << v[i].first << ' ' << v[i].second << '\n';
 }
