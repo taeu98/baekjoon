@@ -1,25 +1,23 @@
-/* 10단계 [ 정렬 ] */
-// 제목 : 소트인사이드
-// 문제 번호 : 1427
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int X;
-    int arr[10] = {0};
+    ios_base ::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
 
-    cin >> X;
+    int N, x;
+    int arr[2001] = {0};
 
-    while (X)
+    cin >> N;
+    for (int i = 0; i < N; i++)
     {
-        arr[X % 10]++;
-        X /= 10;
+        cin >> x;
+        arr[x + 1000] = 1;
     }
 
-    for (int i = 9; i >= 0; i--)
-        for (int j = 0; j < arr[i]; j++)
-            cout << i;
-    cout << endl;
+    for (int i = 0; i < 2001; i++)
+        if (arr[i] == 1)
+            cout << i - 1000 << "\n";
 }
