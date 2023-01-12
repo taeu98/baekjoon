@@ -1,17 +1,17 @@
 /* 10단계 [ 정렬 ] */
-// 제목 : 수 정렬하기
-// 문제 번호 : 2750
+// 제목 : 대표값2
+// 문제 번호 : 2587
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    int N, cnt = 0;
-    cin >> N;
+    int N = 5, cnt = 0, sum = 0;
     int arr[N + 1];
     for (int i = 0; i < N; i++)
     {
         cin >> arr[0];
+        sum += arr[0];
         if (cnt++ == 0)
             arr[1] = arr[0];
         else
@@ -26,6 +26,6 @@ int main()
                 }
             }
     }
-    for (int i = 1; i <= cnt; i++)
-        cout << arr[i] << "\n";
+    cout << sum / 5 << "\n"
+         << arr[3] << "\n";
 }

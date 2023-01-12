@@ -1,13 +1,13 @@
 /* 10단계 [ 정렬 ] */
-// 제목 : 수 정렬하기
-// 문제 번호 : 2750
+// 제목 : 대표값2
+// 문제 번호 : 2587
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    int N, cnt = 0;
-    cin >> N;
+    int N, S, cnt = 0;
+    cin >> N >> S;
     int arr[N + 1];
     for (int i = 0; i < N; i++)
     {
@@ -26,6 +26,5 @@ int main()
                 }
             }
     }
-    for (int i = 1; i <= cnt; i++)
-        cout << arr[i] << "\n";
+    cout << arr[N - S + 1] << "\n";
 }
