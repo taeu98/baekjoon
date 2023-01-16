@@ -1,6 +1,6 @@
 /* 10단계 [ 정렬 ] */
-// 제목 : 대표값2
-// 문제 번호 : 2587
+// 제목 : 커트라인
+// 문제 번호 : 25305
 
 #include <iostream>
 using namespace std;
